@@ -1,0 +1,17 @@
+server:
+  port: 8081
+spring:
+  application:
+    name: inventory-mgmt-service
+  config:
+    import:
+    - configserver:http://localhost:8889
+  cloud:
+    refresh:
+      enabled: true
+    config:
+      username: configadmin
+      password: welcome1  
+ 
+  
+    

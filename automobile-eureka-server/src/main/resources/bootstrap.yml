@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: automobile-eurekaserver
+  config:
+    activate:
+      on-profile:
+      - master
+    import:
+    - configserver:http://localhost:8889
+  cloud:
+    config:
+      username: configadmin
+      password: welcome1

@@ -1,0 +1,16 @@
+API for microservice impl
+==========================
+
+
+steps to create repository 
+
+
+->microservice->
+
+mkdir automobile-configrepo
+
+cd automobile-configrepo
+
+git init
+
+echo> inventory-mgmt-service.yml
